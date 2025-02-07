@@ -12,7 +12,7 @@ Fully responsive layout, ensuring the app works well on both desktop and mobile 
 Clone this repository or download the ZIP file.
 Open index.html in any browser to use the application.
 
-💻 Live Demo: [View the Calculator Demo](https://sulabhsaluja.github.io/Calculator/)
+💻 Live Demo: [View the Calculator Demo](https://sulabhsaluja.github.io/Calculator/calculator.html)
 
 ## Technologies Used
 HTML for structure.
