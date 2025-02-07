@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/1a36b1af9b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icons8-calculator-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" aria-label="text" readonly />
+        <div class="keys">
+            <button onclick="clearDisplay()" class="clear">AC</button>
+            <button onclick="clearCharacter()" class="operator"><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="addSymbol('%')" class="operator">%</button>
+            <button onclick="addSymbol('/')" class="operator">/</button>
+
+            <button onclick="addSymbol('7')">7</button>
+            <button onclick="addSymbol('8')">8</button>
+            <button onclick="addSymbol('9')">9</button>
+            <button onclick="addSymbol('*')" class="operator">*</button>
+
+            <button onclick="addSymbol('4')">4</button>
+            <button onclick="addSymbol('5')">5</button>
+            <button onclick="addSymbol('6')">6</button>
+            <button onclick="addSymbol('-')" class="operator">-</button>
+
+            <button onclick="addSymbol('1')">1</button>
+            <button onclick="addSymbol('2')">2</button>
+            <button onclick="addSymbol('3')">3</button>
+            <button onclick="addSymbol('+')" class="operator">+</button>
+
+            <button onclick="addSymbol('0')" class="zero">0</button>
+            
+            <button onclick="addSymbol('.')">.</button>
+            <button onclick="calculate()" class="operator equals">=</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
